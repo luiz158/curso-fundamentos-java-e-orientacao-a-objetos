@@ -9,8 +9,8 @@ public class RelatorioContas {
 		System.out.println("RELATÓRIO DE CONTAS A PAGAR E RECEBER");
 		System.out.println("*************************************");
 
-		for (int i = 0; i < contas.length; i++) {
-			contas[i].exibirDetalhes();
+		for (Conta conta: contas) {
+			conta.exibirDetalhes();
 		}
 		
 		System.out.println("*************************************");
